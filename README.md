@@ -23,7 +23,7 @@ Spatial proteomics technologies have transformed our understanding of complex ti
 ...
 
 ## Acknowledgements
-The project was built on top of amazing repositories such as [ViT](https://github.com/google-research/big_vision), [PyTorch](https://github.com/pytorch/pytorch) (v2.5.1, CUDA 12.1), [xformers](https://github.com/facebookresearch/xformers) (v0.0.28) and [scikit-learn](https://github.com/scikit-learn/scikit-learn) (v1.5.2). We thank the authors and developers for their contribution.
+The project was built on top of amazing repositories such as [ViT](https://github.com/google-research/big_vision), [PyTorch](https://github.com/pytorch/pytorch) (v2.5.1, CUDA 12.1), [xformers](https://github.com/facebookresearch/xformers) (v0.0.28) and [scikit-learn](https://github.com/scikit-learn/scikit-learn) (v1.5.2). We thank the authors and developers for their contribution. Icons were created using resources from Flaticon.com.
 
 ## License and Terms of Use
 
