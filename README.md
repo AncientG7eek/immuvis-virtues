@@ -91,8 +91,16 @@ The project was built on top of amazing repositories such as [PyTorch](https://g
 ⓒ AIMM Lab. This model and associated code are released under the [CC-BY-NC-ND 4.0]((https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en)) license and may only be used for non-commercial, academic research purposes with proper attribution. Any commercial use, sale, or other monetization of the VirTues platform and its derivatives, which include models trained on outputs from the VirTues platform, is prohibited and requires prior approval.
 
 ## Reference
-If you find our work useful in your research or if you use parts of this code please consider citing our [paper]():
+If you find our work useful in your research or if you use parts of this code please consider citing our [paper](https://arxiv.org/abs/2501.06039):
 
 ```
-
+@misc{wenckstern2025aipoweredvirtualtissuesspatial,
+      title={AI-powered virtual tissues from spatial proteomics for clinical diagnostics and biomedical discovery}, 
+      author={Johann Wenckstern and Eeshaan Jain and Kiril Vasilev and Matteo Pariset and Andreas Wicki and Gabriele Gut and Charlotte Bunne},
+      year={2025},
+      eprint={2501.06039},
+      archivePrefix={arXiv},
+      primaryClass={q-bio.QM},
+      url={https://arxiv.org/abs/2501.06039}, 
+}
 ```
