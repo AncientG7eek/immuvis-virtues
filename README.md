@@ -3,7 +3,7 @@
 
 *Preprint, 2025* <img src=".github/logo_virtues.png" alt="VirTues Logo" width="40%" align="right" />
 
-**Authors:** Johann Wenckstern, Eeshaan Jain, Kiril Vasilev, Matteo Pariset, Andreas Wicki, Gabriele Gut, Charlotte Bunne
+**Authors:** Johann Wenckstern*, Eeshaan Jain*, Kiril Vasilev, Matteo Pariset, Andreas Wicki, Gabriele Gut, Charlotte Bunne
 
 Spatial proteomics technologies have transformed our understanding of complex tissue architectures by enabling simultaneous analysis of multiple molecular markers and their spatial organization. The high dimensionality of these data, varying marker combinations across experiments and heterogeneous study designs pose unique challenges for computational analysis. Here, we present Virtual Tissues (VirTues), a foundation model framework for biological tissues that operates across the molecular, cellular and tissue scale. VirTues introduces innovations in transformer architecture design, including a novel tokenization scheme that captures both spatial and marker dimensions and attention mechanisms that scale to high-dimensional multiplex data while maintaining interpretability. Trained on diverse cancer and non-cancer tissue datasets, VirTues demonstrates strong generalization capabilities without task-specific fine-tuning, enabling cross-study analysis and novel marker integration. As a generalist model, VirTues outperforms existing approaches across clinical diagnostics, biological discovery and patient case retrieval tasks, while providing insights into tissue function and disease mechanisms.
 
@@ -23,7 +23,7 @@ source setup.sh
 ### Configuration
 Before running VirTues, please ensure that your base configuration found in `configs/base_config` is properly setup for your system. 
 This includes setting the following fields:
-```python
+```yaml
 experiment.disable_wandb: 'disabled' | 'online' | 'offline' # set to 'disabled' to disable wandb logging
 experiment.wandb_entity: <entity-name> # your wandb entity name, leave empty for default
 experiment.wandb_project: <project-name> # your project name
