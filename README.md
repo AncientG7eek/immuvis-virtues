@@ -94,13 +94,11 @@ The project was built on top of amazing repositories such as [PyTorch](https://g
 If you find our work useful in your research or if you use parts of this code please consider citing our [paper](https://arxiv.org/abs/2501.06039):
 
 ```
-@misc{wenckstern2025aipoweredvirtualtissuesspatial,
-      title={AI-powered virtual tissues from spatial proteomics for clinical diagnostics and biomedical discovery}, 
-      author={Johann Wenckstern and Eeshaan Jain and Kiril Vasilev and Matteo Pariset and Andreas Wicki and Gabriele Gut and Charlotte Bunne},
-      year={2025},
-      eprint={2501.06039},
-      archivePrefix={arXiv},
-      primaryClass={q-bio.QM},
-      url={https://arxiv.org/abs/2501.06039}, 
+@article{wenckstern2025ai,
+  title={{AI-powered virtual tissues from spatial proteomics for clinical diagnostics and biomedical discovery}},
+  author={Wenckstern, Johann and Jain, Eeshaan and Vasilev, Kiril and Pariset, Matteo and Wicki, Andreas and Gut, Gabriele and Bunne, Charlotte},
+  journal={arXiv preprint arXiv:2501.06039},
+  year={2025},
+  url={https://arxiv.org/abs/2501.06039}, 
 }
 ```
