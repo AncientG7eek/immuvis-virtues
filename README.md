@@ -1,5 +1,5 @@
 # Immuvis-virtues
-This repository uses the [Virtues](https://github.com/bunnelab/virtues repo to) code to be adjusted to new data. The original repository's readme is placed below.
+This repository uses the [Virtues](https://github.com/bunnelab/virtues) code to be adjusted to new data. The original repository's readme is placed below.
 
 # VirTues
 ## AI-powered virtual tissues from spatial proteomics for clinical diagnostics and biomedical discovery
