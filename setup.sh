@@ -1,8 +1,8 @@
 #!/bin/bash
 
-#python3 -m venv ~/venvs/virtues4
+python3 -m venv ~/virtues
 
-#source ~venvs/virtues4/bin/activate
+source ~/virtues/bin/activate
 
 pip install numpy
 pip install pandas
@@ -19,3 +19,5 @@ pip install umap-learn
 pip install POT
 pip install loguru
 pip install omegaconf imblearn
+pip install tabulate
+pip install scikit-image
