@@ -1,19 +1,21 @@
-conda create -n virtues python=3.12
+#!/bin/bash
 
-conda activate virtues
+#python3 -m venv ~/venvs/virtues4
 
-conda run -n virtues pip install numpy
-conda run -n virtues pip install pandas
-conda run -n virtues pip install einops
-conda run -n virtues pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
-conda run -n virtues pip install biopython
-conda run -n virtues pip3 install -U scikit-learn
-conda run -n virtues pip install -U matplotlib
-conda run -n virtues pip install seaborn
-conda run -n virtues pip3 install -U xformers --index-url https://download.pytorch.org/whl/cu121
-conda run -n virtues pip install wandb
-conda run -n virtues pip install pillow
-conda run -n virtues pip install umap-learn
-conda run -n virtues pip install POT
-conda run -n virtues pip install loguru
-conda run -n virtues pip install omegaconf imblearn
+#source ~venvs/virtues4/bin/activate
+
+pip install numpy
+pip install pandas
+pip install einops
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+pip install biopython
+pip install scikit-learn --upgrade
+pip install matplotlib --upgrade
+pip install seaborn
+pip install xformers --index-url https://download.pytorch.org/whl/cu121 --upgrade
+pip install wandb
+pip install pillow
+pip install umap-learn
+pip install POT
+pip install loguru
+pip install omegaconf imblearn
